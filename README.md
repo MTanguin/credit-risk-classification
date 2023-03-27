@@ -39,7 +39,7 @@ Oversampled
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+
 
 * Machine Learning Model 1: Unbalanced Samples
   * Description of Model 1 Accuracy, Precision, and Recall scores.
@@ -60,5 +60,5 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * The oversampled model produced an accuracy score of 99%, which is higher than the model trained on unbalanced data. The improved performance of the oversampled model is attributed to its superior ability to detect errors, such as misclassifying non-healthy (high-risk) loans as healthy (low-risk). This is evident from the higher recall score of the oversampled model, which increased from 0.91 to 0.99 compared to the unbalanced model.
 
-A lending company may prefer a model with a higher recall score because misclassifying non-healthy loans as healthy could have a more significant financial impact on the company. While misclassifying healthy loans as non-healthy may result in the loss of customers, it would not directly result in a monetary loss for the lender as they have not yet provided funds to the customer. In contrast, misclassifying non-healthy loans as healthy could result in the loss of funds provided by the lender, which would be more costly for the lending company.
+* A lending company may prefer a model with a higher recall score because misclassifying non-healthy loans as healthy could have a more significant financial impact on the company. While misclassifying healthy loans as non-healthy may result in the loss of customers, it would not directly result in a monetary loss for the lender as they have not yet provided funds to the customer. In contrast, misclassifying non-healthy loans as healthy could result in the loss of funds provided by the lender, which would be more costly for the lending company.
 
