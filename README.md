@@ -31,6 +31,7 @@ Unbalanced
 ![Alt text](Images/unbalanced_accuracy_score.png)
 
 Oversampled
+
 ![Alt text](Images/balanced_accuracy_score.png)
 
 
@@ -45,14 +46,14 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ![Alt text](Images/unbalanced_model.png)
 
-The model's performance was evaluated on a dataset of 19,384 loan status's, out of which 18,765 were healthy and 619 were non-healthy (high-risk). For the healthy loan status's, the model correctly predicted 18,663 as healthy, but misclassified 102 as non-healthy. Similarly, for the non-healthy loan status's, the model correctly predicted 563 as non-healthy, but misclassified 56 as healthy.
+
 
 * Machine Learning Model 2:Oversampled Data
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ![Alt text](Images/balanced_model.png)
 
-Out of 18,765 loans that are actually healthy, the model predicted 18,649 correctly as healthy (true negatives), while 116 were predicted as non-healthy (false positives). Out of 619 loans that are actually non-healthy, the model predicted 615 correctly as non-healthy (true positives), while 4 were predicted as healthy (false negatives). Overall, the model has performed well with high numbers of true positives and true negatives, and relatively low numbers of false positives and false negatives.
+
 
 ## Summary
 
