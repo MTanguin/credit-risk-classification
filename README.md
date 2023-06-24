@@ -1,6 +1,6 @@
-# credit-risk-classification
+#### "Credit Risk Classification: Predicting Borrower Creditworthiness for Informed Lending Decisions"
 
-## Overview of the Analysis
+## Overview
 
 
 The purpose of the analysis is to build a model that can identify the creditworthiness of borrowers.
@@ -35,10 +35,7 @@ Oversampled
 ![Alt text](Images/balanced_accuracy_score.png)
 
 
-
-
 ## Results
-
 
 
 * Machine Learning Model 1: Unbalanced Samples
@@ -54,9 +51,7 @@ Oversampled
 ![Alt text](Images/balanced_model.png)
 
 
-
 ## Summary
-
 
 * The oversampled model produced an accuracy score of 99%, which is higher than the model trained on unbalanced data. The improved performance of the oversampled model is attributed to its superior ability to detect errors, such as misclassifying non-healthy (high-risk) loans as healthy (low-risk). This is evident from the higher recall score of the oversampled model, which increased from 0.91 to 0.99 compared to the unbalanced model.
 
