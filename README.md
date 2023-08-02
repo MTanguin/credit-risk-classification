@@ -58,5 +58,4 @@ Oversampled
 * A lending company may prefer a model with a higher recall score because misclassifying non-healthy loans as healthy could have a more significant financial impact on the company. While misclassifying healthy loans as non-healthy may result in the loss of customers, it would not directly result in a monetary loss for the lender as they have not yet provided funds to the customer. In contrast, misclassifying non-healthy loans as healthy could result in the loss of funds provided by the lender, which would be more costly for the lending company.
 
 ### Source:
-
 https://courses.bootcampspot.com/courses/2799/assignments/42920?module_item_id=803959
