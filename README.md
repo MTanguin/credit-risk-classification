@@ -14,7 +14,7 @@ Specifically, to develop a mathematical model or algorithm that can predict whet
 To build this model, data related to borrowers were used (lending_data.csv), such as their loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt and loan_status.Then, run a simple implementation of a logistic regression model for binary classification for model, RandomOverSampler to resample the data and evaluates its performance using a balanced accuracy score and a confusion matrix. Two models were built, the first one is the model with unbalanced samples and the other one that used RandomOverSampler to resample the data for balanced samples.
 (Assuming that the data are cleaned, preprocessed, and transformed into a format that can be used to train a machine learning model)
 
-Unbalanced
+Imbalanced
 
 ![Alt text](Images/target_values.png)
 
@@ -26,7 +26,7 @@ Oversampled
 The goal of the models is to accurately predict the creditworthiness of new borrowers who are not included in the training data so lenders can make informed decisions about whether to approve or deny loan applications. A good creditworthiness model should have a high degree of accuracy and be able to identify potential loan defaults early, reducing the risk of financial losses for the lender.
 See the difference:
 
-Unbalanced
+Imbalanced
 
 ![Alt text](Images/unbalanced_accuracy_score.png)
 
@@ -57,3 +57,6 @@ Oversampled
 
 * A lending company may prefer a model with a higher recall score because misclassifying non-healthy loans as healthy could have a more significant financial impact on the company. While misclassifying healthy loans as non-healthy may result in the loss of customers, it would not directly result in a monetary loss for the lender as they have not yet provided funds to the customer. In contrast, misclassifying non-healthy loans as healthy could result in the loss of funds provided by the lender, which would be more costly for the lending company.
 
+### Source:
+
+https://courses.bootcampspot.com/courses/2799/assignments/42920?module_item_id=803959
